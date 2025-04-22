@@ -1,56 +1,41 @@
-Music Genre Classifier
-Project Overview
-This project involves the classification of music genres using machine learning algorithms. The model is trained on a dataset containing various audio features, and it predicts the genre of a given audio clip based on its characteristics.
+# Music Genre Classifier
 
-Features
-Data: The model uses a dataset containing audio features (like spectral centroid, MFCC, etc.) extracted from 30-second audio clips.
+## Overview
+This project uses machine learning to classify music into different genres based on audio features like MFCCs, spectral centroid, and more.
 
-Machine Learning Model: The classifier is built using algorithms like Random Forest or any other classifier that performs well on the dataset.
+## Technologies Used
+- **Python**
+- **Scikit-learn**
+- **Pandas**
+- **Google Colab** (for cloud execution)
 
-Genres: The model classifies music into genres such as Blues, Classical, Jazz, Pop, Rock, Hip-Hop, etc.
+## Dataset
+The dataset consists of audio features extracted from various music genres such as:
+- **Blues**
+- **Classical**
+- **Jazz**
+- **Rock**
+- **Pop**
+- **Reggae**
+- **Country**
+- **Hip-hop**
 
-Technologies Used
-Python
+## Getting Started
 
-Jupyter Notebook / Google Colab
-
-Scikit-learn (for model building)
-
-Pandas (for data manipulation)
-
-Matplotlib / Seaborn (for data visualization)
-
-Google Colab (for cloud-based execution)
-
-Dataset
-The dataset consists of audio features extracted from music files. Features include chroma_stft, spectral centroid, spectral bandwidth, MFCC (Mel-frequency cepstral coefficients), and more.
-
-Genres: The dataset includes multiple genres, such as Blues, Classical, Jazz, Rock, etc.
-
-Getting Started
-To run the project locally or in a cloud-based environment like Google Colab:
-
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/YOUR_USERNAME/music-genre-classifier.git
-cd music-genre-classifier
-Install dependencies: If you have Python installed, you can install the required dependencies:
-
-bash
-Copy
-Edit
+### Prerequisites
+Make sure you have the following libraries installed:
+```bash
 pip install -r requirements.txt
-Run the code: Open the notebook (Music Genre Classifier.ipynb) and run the cells to train and evaluate the model.
+```
+Clone the repository:
+```bash
+git clone https://github.com/YOUR_USERNAME/music-genre-classifier.git
+```
+Open and run the notebook Music Genre Classifier.ipynb on Google Colab or your local environment.
+- **If you are using Google Colab, upload the notebook and run it directly.**
+- **If you're running it locally, make sure you have Jupyter Notebook installed and then open the file:**
+  
+  ```bash
+  jupyter notebook Music\ Genre\ Classifier.ipynb
+  ```
 
-Model Performance
-Accuracy: 76% (adjust based on your actual results)
-
-Precision, Recall, F1-Score: The model's performance varies for different genres. Detailed metrics are provided in the notebook.
-
-How to Use
-Train the Model: The model can be trained using the provided dataset, which is already pre-processed in the notebook.
-
-Predict Music Genre: Once trained, you can input a new music file (with similar features) and get the predicted genre.
