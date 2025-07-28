@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ```
 Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/music-genre-classifier.git
+git clone https://github.com/shawnlasrado20/music-genre-classifier.git
 ```
 Open and run the notebook Music Genre Classifier.ipynb on Google Colab or your local environment.
 - **If you are using Google Colab, upload the notebook and run it directly.**
